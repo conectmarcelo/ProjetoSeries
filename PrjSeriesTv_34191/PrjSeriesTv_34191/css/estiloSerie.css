@@ -1,0 +1,46 @@
+.capa { width: 600px; }
+.capa figure { display: grid; }
+.capa figure img { width: 100%; }
+
+.p10 { padding:10px; }
+.conteudoSerie { margin-top:10px;  }
+
+.idSerie { padding: 5px; color:#fff; font-size: 18px; width: 338px; position: relative; min-height: 315px; text-align: center;}
+.tituloSerie { font-weight: bold; font-size: 45px;  line-height: 50px; }
+.dadosBase { position: absolute; bottom: 80px; text-align: center; width: 100%; }
+
+.divisoria { padding:5px; background-color: #ec8531; }
+.itemMenuSerie { padding: 10px; margin-right: 5px;  font-weight: bold; color: #fff; font-size: 16px;  border-right: thin solid #fff; }
+
+
+.areaDetalhes, .areaTemporadas { padding:10px;  }
+.areaDetalhes p, .areaTemporadas p { font-size: 16px; }
+
+.comboSelecao { padding:5px; width: 150px; }
+
+.ep { width: 449px; margin-right: 5px;  padding: 5px; margin-bottom: 10px;min-height: 165px; position: relative;}
+.epBorda { border-right: thin solid #ec8531; }
+
+h1 { font-size: 22px; color: #084c7d;}
+h2 { font-size: 18px; color: #084c7d;}
+/* MEDIA QUERY */
+
+/* CELULAR DE PÉ */
+@media screen and (max-width: 450px) 
+{
+	.capa { width: 100%; }
+	.imPequeno { width: 60px; text-align: center; }
+	.imGrande { border-right: none; }
+	.ep { width: 95%; border-bottom: thin solid #ec8531;}
+	.epBorda { border-right:none;}
+}
+
+/* CELULAR DEITADO */
+@media screen and (min-width: 451px) and (max-width: 650px) 
+{
+}
+
+/* TABLET DE PÉ */
+@media screen and (min-width: 651px) and (max-width: 960px) 
+{
+}

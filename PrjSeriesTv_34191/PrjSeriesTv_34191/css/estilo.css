@@ -1,0 +1,68 @@
+* { /*font-family: 'Acme', sans-serif;*/ font-family: 'PT Sans Narrow', sans-serif; font-size:14px; font-style: normal; }
+html, body { margin:0; padding:0; /*background-color: #ec8531; */}
+
+main { width: 1020px; margin:0 auto; background-color: #fff; min-height: 1000px; }
+
+
+.fl { float: left; }
+.fr { float: right; }
+.cls { clear: both; }
+.laranja { background-color: #ec8531; }
+.azul { background-color: #084c7d; }
+.direita { text-align: right; }
+
+a.lnkLaranja { color:#ec8531; text-decoration:none; margin-right: 10px;}
+
+header 
+{ 
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+    border-bottom: thin solid #ec8531;
+}
+
+
+figure { margin:0; }
+.logo { width: 200px; }
+.botao { margin-top:5px; margin-left:5px; }
+.btnAdicionar {  text-decoration: none; background-color: #ec8531; border: none;  padding: 5px; border-radius: 4px; width: 80px; color: #FFF; cursor: pointer; margin-right: 15px; }
+
+.areaCaixaBusca { margin-right: 20px;  margin-top: 33px; }
+.caixaBusca { padding: 4px; border-radius:4px; width: 350px; border:thin solid #ec8531; }
+.btnBuscar { text-decoration: none; background-color: #ec8531; border: none;  padding: 5px; border-radius: 4px; width: 60px;  color: #FFF; cursor: pointer;}
+
+.areaConteudo { width: 95%; margin: auto; }
+.conteudo { padding:10px; margin-top:10px; }
+
+
+.iconeSerie { width: 311px; margin-right: 5px; background-color: #ec8531; min-height: 230px; color: #fff; margin-bottom:5px;}
+.iconeSerie a { text-decoration: none;color: #fff; }
+.iconeSerie figure img { width: 100%; }
+.idIconeSerie { padding: 5px; }
+.titulo { font-weight: bold; font-size: 16px; }
+.subtitulo { font-size: 13px; font-style: italic; font-weight: normal;}
+
+
+/* MEDIA QUERY */
+
+/* CELULAR DE PÉ */
+@media screen and (max-width: 450px) 
+{
+	main { width: 100%; }
+	header{ padding:0; }
+	.areaLogo { width: 100%; text-align: center;}
+	.logo { margin:auto; }
+
+	.areaCaixaBusca { width: 91%; margin-right: 0; margin-top: 15px; text-align: center; margin-bottom: 15px;}
+	.caixaBusca { width: 225px; }
+}
+
+/* CELULAR DEITADO */
+@media screen and (min-width: 451px) and (max-width: 650px) 
+{
+}
+
+/* TABLET DE PÉ */
+@media screen and (min-width: 651px) and (max-width: 960px) 
+{
+}

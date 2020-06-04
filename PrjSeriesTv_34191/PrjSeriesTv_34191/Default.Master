@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="PrjSeriesTv_34191.Default" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>TV Series</title>
+    
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome-all.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+    
+    
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+		<main>
+			<header>
+				<div class="fl areaLogo">
+					<figure>
+						<a href="Index.aspx"><img class="logo" src="images/logo.png" alt="Logotipo do Site TV Series"></a>
+					</figure>
+				</div>
+				<div class="fr areaCaixaBusca">
+					<input type="text" class="caixaBusca fl" placeholder="Procurar por série, episódio, personagem, etc.">
+					<div class="botao fl">
+						<a href="#" class="btnBuscar">
+							<i class="fas fa-search"></i> Buscar	
+						</a>
+					</div>
+					<div class="cls"></div>
+				</div>
+				<div class="cls"></div>
+			</header>
+        
+        
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+       
+            </asp:ContentPlaceHolder>
+        </div>
+        
+		
+
+    </form>
+</body>
+</html>
